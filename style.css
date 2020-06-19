@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(320deg, #2d3142, #7dcfb6);
+    background-size: 400% 400%;
+
+    -webkit-animation: animate-gradient 20s ease infinite;
+    -moz-animation: animate-gradient 20s ease infinite;
+    -o-animation: animate-gradient 20s ease infinite;
+    animation: animate-gradient 20s ease infinite;
+}
+
+@-webkit-keyframes animate-gradient {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@-moz-keyframes animate-gradient {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@-o-keyframes animate-gradient {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+@keyframes animate-gradient {
+    0%{background-position:13% 0%}
+    50%{background-position:88% 100%}
+    100%{background-position:13% 0%}
+}
+
+.hvr-icon-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-icon-grow .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
+    -webkit-transform: scale(1.3) translateZ(0);
+    transform: scale(1.3) translateZ(0);
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #181c25;
+}
+
+#container {
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    top: 200px;
+}
+
+.fa {
+    font-size:32px;
+    margin: 10px 10px;
+    color: #ffede1;
+}
+
+.fa:hover {
+    color: #000000;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-github:hover {
+    color: #24292E;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+.fa-linkedin-square:hover {
+    color: #0073B1;
+}
+
+.fa-folder-open:hover {
+    color: #FFE9A2;
+}
+
+.open-envelope:hover:before {
+    content: "\f2b6";
+    color: #E4E4E4;
+}
+
+.open-folder:hover:before {
+    content: "\f07c";
+    color: #FFE9A2;
+}
