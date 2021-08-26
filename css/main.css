@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 5% 25%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 500px;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+.nav li p {
+    margin: 0;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 16px; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.spotify {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(101, 101, 101);
+    min-width: 100px;
+    height: 80px;
+    margin-top: 50px;
+    padding: 0 15px;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+
+#info {
+    margin-left: 15px;
+}
+
+#song, #artist {
+    margin: 0;
+}
+#song {
+    display: inline-flex;
+}
+#song_title {
+    font-size: 16px;
+    margin: 0;
+}
+
+#external {
+    margin: 0 0 0 10px;
+}
+
+#artist {
+    font-size: 12px;
+    color: #949494;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tech {
+    color: #949494;
+}
