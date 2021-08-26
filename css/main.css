@@ -61,19 +61,22 @@ section {
     margin-left: 15px;
 }
 
-#song, #artist {
-    margin: 0;
-}
-#song {
-    display: inline-flex;
-}
-#song_title {
-    font-size: 16px;
+#listening, #song, #artist {
     margin: 0;
 }
 
-#external {
-    margin: 0 0 0 10px;
+#listening {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#song {
+    display: block;
+}
+
+#song_title {
+    font-size: 16px;
+    margin: 0;
 }
 
 #artist {
@@ -81,10 +84,22 @@ section {
     color: #949494;
 }
 
+#external {
+    margin: 0 0 0 10px;
+}
+
+
 ul {
     list-style-type: none;
 }
 
 .tech {
     color: #949494;
+}
+
+@media screen and (max-width:400px)
+{
+body{
+margin:0px;
+    }
 }
